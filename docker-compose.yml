@@ -1,0 +1,18 @@
+version: '2'
+services:
+  web:
+    build: ./web
+    image: jval1971/simple-web_web
+    restart: always    
+    ports:
+      - 8080:5000
+    depends_on:
+      - api
+  api:
+    build: ./api
+    image: jval1971/simple-web_api
+    restart: always
+    ports:
+      - 6000:6000
+#    environment:
+#    depends_on:
