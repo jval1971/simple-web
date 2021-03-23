@@ -5,7 +5,7 @@
 ### Run:
 ```$ docker-compose up -d```
 ### Url for browser:
-```http://localhost:8080/```
+```http://localhost/```
 ### Stop:
 ```docker-compose down```
 
